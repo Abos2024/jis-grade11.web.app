@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "firebase": "^9.8.1",
+    "jquery.magnify": "^1.6.3"
+  }
+}
