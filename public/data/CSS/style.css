@@ -503,7 +503,7 @@ u{
 }
 
 .projects-card img{
-	filter: blur(0.6px);
+	filter: blur(0.5px);
 	transition: all .5s ease-in-out;
 }
 
