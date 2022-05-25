@@ -2,11 +2,11 @@
 
 # Magnify
 
-[![Travis](https://img.shields.io/travis/nzbin/magnify.webp)](https://travis-ci.org/nzbin/magnify)
-[![npm](https://img.shields.io/npm/v/jquery.magnify.webp)](https://www.npmjs.com/package/jquery.magnify)
+[![Travis](https://img.shields.io/travis/nzbin/magnify.webP)](https://travis-ci.org/nzbin/magnify)
+[![npm](https://img.shields.io/npm/v/jquery.magnify.webP)](https://www.npmjs.com/package/jquery.magnify)
 [![Bower](https://img.shields.io/bower/v/jquery.magnify)](https://github.com/nzbin/magnify)
-[![license](https://img.shields.io/github/license/mashape/apistatus.webp)](https://github.com/nzbin/magnify/blob/master/LICENSE)
-[![Financial Contributors on Open Collective](https://opencollective.com/magnify/all/badge.webp?label=financial+contributors)](https://opencollective.com/magnify)
+[![license](https://img.shields.io/github/license/mashape/apistatus.webP)](https://github.com/nzbin/magnify/blob/master/LICENSE)
+[![Financial Contributors on Open Collective](https://opencollective.com/magnify/all/badge.webP?label=financial+contributors)](https://opencollective.com/magnify)
 
 Magnify is a jQuery plugin to view images just like in windows.
 
@@ -60,23 +60,23 @@ The icons in magnify use svg default, you can customize them in options.
 The default structure as below:
 
 ```html
-<a data-magnify="gallery" href="big-1.webp">
-  <img src="small-1.webp" />
+<a data-magnify="gallery" href="big-1.webP">
+  <img src="small-1.webP" />
 </a>
-<a data-magnify="gallery" href="big-2.webp">
+<a data-magnify="gallery" href="big-2.webP">
   <img src="small-2jpg" />
 </a>
-<a data-magnify="gallery" href="big-3.webp">
-  <img src="small-3.webp" />
+<a data-magnify="gallery" href="big-3.webP">
+  <img src="small-3.webP" />
 </a>
 ```
 
 or
 
 ```html
-<img data-magnify="gallery" data-src="big-1.webp" src="small-1.webp" />
-<img data-magnify="gallery" data-src="big-2.webp" src="small-2.webp" />
-<img data-magnify="gallery" data-src="big-3.webp" src="small-3.webp" />
+<img data-magnify="gallery" data-src="big-1.webP" src="small-1.webP" />
+<img data-magnify="gallery" data-src="big-2.webP" src="small-2.webP" />
+<img data-magnify="gallery" data-src="big-3.webP" src="small-3.webP" />
 ```
 
 All structures above have optional attributes as below:
@@ -309,7 +309,7 @@ $("[data-magnify=gallery]").magnify({
 ### Code Contributors
 
 This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
-<a href="https://github.com/nzbin/magnify/graphs/contributors"><img src="https://opencollective.com/magnify/contributors.webp?width=890&button=false" /></a>
+<a href="https://github.com/nzbin/magnify/graphs/contributors"><img src="https://opencollective.com/magnify/contributors.webP?width=890&button=false" /></a>
 
 ### Financial Contributors
 
@@ -317,22 +317,22 @@ Become a financial contributor and help us sustain our community. [[Contribute](
 
 #### Individuals
 
-<a href="https://opencollective.com/magnify"><img src="https://opencollective.com/magnify/individuals.webp?width=890"></a>
+<a href="https://opencollective.com/magnify"><img src="https://opencollective.com/magnify/individuals.webP?width=890"></a>
 
 #### Organizations
 
 Support this project with your organization. Your logo will show up here with a link to your website. [[Contribute](https://opencollective.com/magnify/contribute)]
 
-<a href="https://opencollective.com/magnify/organization/0/website"><img src="https://opencollective.com/magnify/organization/0/avatar.webp"></a>
-<a href="https://opencollective.com/magnify/organization/1/website"><img src="https://opencollective.com/magnify/organization/1/avatar.webp"></a>
-<a href="https://opencollective.com/magnify/organization/2/website"><img src="https://opencollective.com/magnify/organization/2/avatar.webp"></a>
-<a href="https://opencollective.com/magnify/organization/3/website"><img src="https://opencollective.com/magnify/organization/3/avatar.webp"></a>
-<a href="https://opencollective.com/magnify/organization/4/website"><img src="https://opencollective.com/magnify/organization/4/avatar.webp"></a>
-<a href="https://opencollective.com/magnify/organization/5/website"><img src="https://opencollective.com/magnify/organization/5/avatar.webp"></a>
-<a href="https://opencollective.com/magnify/organization/6/website"><img src="https://opencollective.com/magnify/organization/6/avatar.webp"></a>
-<a href="https://opencollective.com/magnify/organization/7/website"><img src="https://opencollective.com/magnify/organization/7/avatar.webp"></a>
-<a href="https://opencollective.com/magnify/organization/8/website"><img src="https://opencollective.com/magnify/organization/8/avatar.webp"></a>
-<a href="https://opencollective.com/magnify/organization/9/website"><img src="https://opencollective.com/magnify/organization/9/avatar.webp"></a>
+<a href="https://opencollective.com/magnify/organization/0/website"><img src="https://opencollective.com/magnify/organization/0/avatar.webP"></a>
+<a href="https://opencollective.com/magnify/organization/1/website"><img src="https://opencollective.com/magnify/organization/1/avatar.webP"></a>
+<a href="https://opencollective.com/magnify/organization/2/website"><img src="https://opencollective.com/magnify/organization/2/avatar.webP"></a>
+<a href="https://opencollective.com/magnify/organization/3/website"><img src="https://opencollective.com/magnify/organization/3/avatar.webP"></a>
+<a href="https://opencollective.com/magnify/organization/4/website"><img src="https://opencollective.com/magnify/organization/4/avatar.webP"></a>
+<a href="https://opencollective.com/magnify/organization/5/website"><img src="https://opencollective.com/magnify/organization/5/avatar.webP"></a>
+<a href="https://opencollective.com/magnify/organization/6/website"><img src="https://opencollective.com/magnify/organization/6/avatar.webP"></a>
+<a href="https://opencollective.com/magnify/organization/7/website"><img src="https://opencollective.com/magnify/organization/7/avatar.webP"></a>
+<a href="https://opencollective.com/magnify/organization/8/website"><img src="https://opencollective.com/magnify/organization/8/avatar.webP"></a>
+<a href="https://opencollective.com/magnify/organization/9/website"><img src="https://opencollective.com/magnify/organization/9/avatar.webP"></a>
 
 ## License
 

@@ -97,7 +97,7 @@ button{
     
 .container-a{
     min-width: fit-content;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.171), rgb(255, 255, 255)), url(../img/background.webp) no-repeat bottom center/cover;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.171), rgb(255, 255, 255)), url(../img/background.webP) no-repeat bottom center/cover;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
