@@ -60,23 +60,23 @@ The icons in magnify use svg default, you can customize them in options.
 The default structure as below:
 
 ```html
-<a data-magnify="gallery" href="big-1.jpg">
-  <img src="small-1.jpg" />
+<a data-magnify="gallery" href="big-1.webp">
+  <img src="small-1.webp" />
 </a>
-<a data-magnify="gallery" href="big-2.jpg">
+<a data-magnify="gallery" href="big-2.webp">
   <img src="small-2jpg" />
 </a>
-<a data-magnify="gallery" href="big-3.jpg">
-  <img src="small-3.jpg" />
+<a data-magnify="gallery" href="big-3.webp">
+  <img src="small-3.webp" />
 </a>
 ```
 
 or
 
 ```html
-<img data-magnify="gallery" data-src="big-1.jpg" src="small-1.jpg" />
-<img data-magnify="gallery" data-src="big-2.jpg" src="small-2.jpg" />
-<img data-magnify="gallery" data-src="big-3.jpg" src="small-3.jpg" />
+<img data-magnify="gallery" data-src="big-1.webp" src="small-1.webp" />
+<img data-magnify="gallery" data-src="big-2.webp" src="small-2.webp" />
+<img data-magnify="gallery" data-src="big-3.webp" src="small-3.webp" />
 ```
 
 All structures above have optional attributes as below:
