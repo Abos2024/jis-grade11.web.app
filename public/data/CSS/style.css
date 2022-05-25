@@ -202,7 +202,7 @@ button{
 }
 
 #navbar{
-  transition: all 1.5s ease-in;
+  transition: all 1s ease-in;
   transition-delay: 0.5s;
 }
 
