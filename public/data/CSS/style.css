@@ -42,7 +42,7 @@ button{
 	height: 10vh;
 	right: 5%;
 	text-align: right;
-	margin: 20px 0px -10px 80vw;
+	margin: 2vh 0px 0px 50%;
 }
 
 .home-0{
@@ -146,13 +146,13 @@ button{
 
 .home-text-0{
 	font-family: 'Koulen', sans-serif;
-	font-size: 80px;
+	font-size: 6vw;
 	margin-bottom: -20px;
 }
 
 .home-text{
 	font-family: 'Koulen', sans-serif;
-	font-size: 100px;
+	font-size: 8vw;
 	margin-bottom: -20px;
 	text-shadow: #499ae8 10px 10px 10px;
 }
@@ -164,7 +164,7 @@ button{
 
 .home-smalltext{
 	font-family: 'titillium web', sans-serif;
-	font-size: 50px;
+	font-size: 3vw;
 }
 
 .overlayy {
@@ -235,17 +235,18 @@ button{
 	overflow: hidden;
 	font-family: 'titillium web', sans-serif;
 	width: 100%;
-	z-index: 10000000000;
+	z-index: 100;
 	transition: top 0.5s;
 	transition-delay: 5ms;
+  height: auto;
 }
 
 .topnav > a:not(.nav-log) {
 	text-align: center;
-	padding: 14px 16px;
+	padding: 2vh 1.5vw;
 	float: left;
 	color: #f2f2f2;
-	font-size: 17px;
+	font-size: 1.4vw;
 }
 
 .topnav .active {
@@ -260,7 +261,7 @@ button{
 	border-color: #499ae8;
 	border-width: 4px; 
 	border-style: solid;
-	padding: 10px 12px;
+	padding: 1.7vh 1.2vw;
 	animation: mymove 5s infinite;
 	transition: all 0.5s ease-in;
 }
@@ -273,13 +274,13 @@ button{
 	float: left;
 	overflow: hidden;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 2vh 1.5vw;
 	transition: all 0.5s ease-in-out;
 	transition-delay: 5ms;
 }
 
 .dropdown .dropbtn {
-	font-size: inherit;  
+	font-size: 1.4vw;  
 	border: none;
 	outline: none;
 	color: #ffffff;
@@ -443,14 +444,14 @@ button{
 
 .home-text2{
 	font-family: Koulen, sans-serif;
-	font-size: 70px;
+	font-size: 5vw;
 	margin: 0px 0px 50px 50px;
 	padding-top: 50px;
 }
 
 .home-smalltext2{
 	font-family: 'titillium web', sans-serif;
-	font-size: 40px;
+	font-size: 3vw;
 	margin-left: 50px;
 	margin-right: 50px;
 }
@@ -485,8 +486,8 @@ u{
 	text-decoration: none;
 	transition: all .5s ease-in-out;
 	animation: opening 50s ease-in-out;
-	margin: 4vh;
-	font-size: 20px;
+	margin: 2.5vh;
+	font-size: 10px;
 }
 
 .projects-card:hover{
@@ -520,7 +521,7 @@ u{
 	font-family: 'Titillium Web', sans-serif;
 	color: whitesmoke;
 	text-align: center;
-	font-size: 35px;
+	font-size: 3vw;
 }
 
 .pg-button{
@@ -533,7 +534,7 @@ u{
 	border-bottom-left-radius: 25px;
 	outline-color: #499ae8;
 	outline-width: 30px;
-	font-size: 40px;
+	font-size: 3vw;
 	text-align: center;
 	display: flex;
 	justify-content: center;
@@ -564,7 +565,7 @@ u{
 .home-smalltext3{
 	font-family: 'titillium web', sans-serif;
 	font-weight: bolder;
-	font-size: 100px;
+	font-size: 8vw;
 	color: white;
 	background-color: rgb(41, 41, 41);
 	width: 100%;
@@ -588,7 +589,7 @@ a:hover{
 }
 .home-text3{
 	font-family: 'koulen', sans-serif;
-	font-size: 60px;
+	font-size: 5vw;
 	margin-left: 50px;
 	padding-top: 20px;
 }
@@ -601,7 +602,7 @@ a:hover{
 .home-text5{
 	position: relative;
 	font-family: 'koulen', sans-serif;
-	font-size: 50px;
+	font-size: 4vw;
 	margin: 0px 0px 10px 50px;
 	padding-top: 20px;
 }
@@ -638,7 +639,7 @@ a:hover{
 	margin-bottom: 100px;
 	margin-right: 60px;
 	margin-left: 60px;
-	font-size: 60px;
+	font-size: 5vw;
 	text-align: left;
 	display: grid;
 	cursor: pointer;
@@ -673,12 +674,12 @@ a:hover{
 .art-title{
 	font-family: 'titillium web', sans-serif;
 	font-weight: bolder;
-	font-size: 50px;
+	font-size: 3.5vw;
 	margin-top: 20px;
 	margin-bottom: -10px;
 }
 .art-text{
-	font-size: 30px;
+	font-size: 2vw;
 	margin-right: 50px;
 }
 .contact{
@@ -688,13 +689,13 @@ a:hover{
 .contact div{
 	padding: 20px 40px;
 	text-align: center;
-	font-size: 40px;
+	font-size: 3vw;
 }
 .contact div a span{
-	font-size: 40px;
+	font-size: 3vw;
 }
 .contact div img{
-	height: 40px;
+	height: 3vw;
 	filter: invert();
 }
 #imageGallery {
@@ -748,7 +749,7 @@ a:hover{
 	transition: 0.5s;
 	letter-spacing: 4px;
 	overflow: hidden;
-	font-size: 20px;
+	font-size: 1.5vw;
 	margin-top: 4vh;
 }
 .home-butt:hover{
@@ -845,7 +846,7 @@ a:hover{
 	grid-template-columns: 20% 60% 20%;
 	margin-left: 5%;
 	margin-right: 5%;
-	font-size: 40px;
+	font-size: 2.7vw;
 	margin-bottom: 20px;
 }
 .ppt-title div:nth-child(2){
@@ -873,10 +874,11 @@ span.material-icons-outlined{
 }
 
 details{
-	font-size: 30px;
+	font-size: 2vw;
 	padding-left: 5%;
 	-webkit-user-select: none;
 	user-select: none;
+  margin-top: -2.3vh;
 }
 .credits{
 	font-family: 'titillium web', sans-serif;
@@ -892,7 +894,7 @@ details{
 	height: 80vh;
 }
 .download-project-video{
-	font-size: 30px;
+	font-size: 2vw;
 }
 .present{
 	margin-top: 10vh;
@@ -904,7 +906,7 @@ details{
 
 #present-butt{
 	display: none;
-	font-size: 50px;
+	font-size: 4vw;
 	margin-left: 10vw;
 	transition: all 0.5s ease-in-out;
 }
@@ -916,7 +918,7 @@ details{
 
 .achievements-card{
 	width: 99vw;
-	margin-top: 30px;
+	margin-top: 1vh;
 	display: grid;
 	grid-template-columns: 70% 30%;
 }
@@ -925,14 +927,14 @@ details{
 	margin-bottom: 15vh;
 	margin-left: 50px;
 	display: grid;
-	font-size: 30px;
+	font-size: 2vw;
 }
 
 strong{
 	position: relative;
 	font-weight: 100;
 	font-family: 'koulen', sans-serif;
-	font-size: 1.7em;
+	font-size: 2.5rem;
 	text-decoration: none;
 	color: #ffffff;
 	transition: all 0.5s ease-in-out;
@@ -983,7 +985,7 @@ strong:hover{
 
 .click-it{
 	font-family: 'titillium web',sans-serif;
-	font-size: 30px;
+	font-size: 2.7vw;
 }
 
 .testimonial-card{
@@ -1007,12 +1009,12 @@ strong:hover{
 .test-text1{
 	font-family: 'koulen';
 	margin: 20px 0px 20px 40px;
-	font-size: 30px;
+	font-size: 3vw;
 }
 
 .test-text2{
 	margin: 20px 10px 20px 40px;
-	font-size: 28px;
+	font-size: 2.3vw;
 }
 
 .testimonial-pic{
@@ -1026,7 +1028,7 @@ strong:hover{
 	position: relative;
 	font-weight: 50;
 	font-family: 'koulen', sans-serif;
-	font-size: 1em;
+	font-size: 1rem;
 	text-decoration: none;
 	color: #ffffff;
 	transition: all 0.5s ease-in-out;
@@ -1065,7 +1067,7 @@ strong:hover{
 	padding: 16px;
 	color: white;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 1.7vw;
 	transition: 0.6s ease;
 	border-radius: 0 3px 3px 0;
 	-webkit-user-select: none;
@@ -1091,7 +1093,7 @@ strong:hover{
 
 .slide-text {
 	color: #f2f2f2;
-	font-size: 15px;
+	font-size: 2vw;
 	padding: 8px 12px;
 	position: absolute;
 	bottom: 8px;
@@ -1101,7 +1103,7 @@ strong:hover{
 
 .numbertext {
 	color: #ffffff;
-	font-size: 20px;
+	font-size: 1.5vw;
 	padding: 8px 12px;
 	position: absolute;
 	top: 0;
@@ -1201,7 +1203,7 @@ strong:hover{
 		font-size: 7vw;
 	}
 	.topnav{
-		float: right;
+		display: none;
 	}
 
 	.menu span{
@@ -1285,8 +1287,9 @@ strong:hover{
 		height: 300px;
 	}
 }
-@media (min-width: 900px){
+@media (min-width: 620px){
 	.menu{
 		display: none;
 	}
 }
+
