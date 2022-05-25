@@ -1189,27 +1189,6 @@ strong:hover{
 	.home-picture-2{
 		width: 90%;
 	}
-	.menu{
-		background-color: transparent;
-		position: fixed;
-		z-index: 10;
-		float: right;
-		color: #f2f2f2;
-		text-align: center;
-		padding: 2vh 16px;
-		text-decoration: none;
-		font-size: 7vw;
-	}
-	.topnav{
-		display: none;
-	}
-
-	.menu span{
-		float: right;
-	}
-	.topnav a{
-		display: none;
-	}
 }
 
 @media (max-width: 481px) {
@@ -1285,8 +1264,31 @@ strong:hover{
 		height: 300px;
 	}
 }
-@media (min-width: 620px){
+@media (min-width: 900px){
 	.menu{
+		display: none;
+	}
+}
+@media (max-width: 900px){
+  .menu{
+		background-color: transparent;
+		position: fixed;
+		z-index: 10;
+		float: right;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 2vh 16px;
+		text-decoration: none;
+		font-size: 7vw;
+	}
+	.topnav{
+		display: none;
+	}
+
+	.menu span{
+		float: right;
+	}
+	.topnav a{
 		display: none;
 	}
 }
