@@ -18,17 +18,6 @@ function framercloser() {
   document.querySelector(".click-it").style.display = "block";
 }
 
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-60px";
-  }
-  prevScrollpos = currentScrollPos;
-}
-
 let slideIndex = 1;
 showSlides(slideIndex);
 
