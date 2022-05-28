@@ -45,3 +45,17 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active-slide";
 }
 
+// Import Highway
+import Highway from '../../node_modules/@dogstudio/highway';
+// Import GSAP
+import Tween from'../../node_modules/gsap';
+// Fade
+clas(method)Fade.in():void nsition{
+    in(){
+   }
+   out(){
+   }
+}
+// Export Fade class
+export default Fade;
+
