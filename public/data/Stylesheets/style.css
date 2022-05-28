@@ -236,7 +236,7 @@ button{
 	z-index: 100;
 	transition: top 0.5s;
 	transition-delay: 5ms;
-  height: auto;
+	height: auto;
 }
 
 .topnav > a:not(.nav-log) {
@@ -245,23 +245,25 @@ button{
 	float: left;
 	color: #f2f2f2;
 	font-size: 1.4vw;
+	box-sizing: border-box;
 }
 
 .topnav .active {
 	background-color: #499ae8;
 	color: #ffffff;
 	transition: all 0.5s ease-in;
+	box-sizing: border-box;
 }
 
 .topnav .active:hover {
 	color: #ffffff;
 	background-color: #000000;
 	border-color: #499ae8;
-	border-width: 0.4vw; 
+	border-width: 0.3vw; 
 	border-style: solid;
-	padding: 1.7vh 1.2vw;
-	animation: mymove 5s infinite;
+	padding: calc(2vh - 0.4vw) 1.1vw;
 	transition: all 0.5s ease-in;
+	box-sizing: border-box;
 }
 
 .active:hover .dropbtn{
@@ -299,9 +301,10 @@ button{
 	border-left-width: 0px;
 	border-right-width: 0px;
 	border-top-width: 0px;
-	padding-bottom: 10px;
+	padding-bottom: -0.4w;
 	transition: all 0.5s ease-in-out;
 	transition-delay: 5ms;
+	box-sizing: border-box;
 }
 
 .dropdown:hover .dropbtn{
