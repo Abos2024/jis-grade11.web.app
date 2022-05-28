@@ -53,5 +53,16 @@ const H = new Highway.Core({
    }
 });
 
+const links=document.querySelectorAll('topnav a');
+// Listen to the`NAVIGATE_IN` event
+H.on('NAVIGATE_IN',({to, location})=>{
+                   link=>{links.forEach(
+        // Remove the active class
+        link.classList.remove('active');
+        // Add the active class
+        if(link.href === location.href){
+            link.classList.add('active');
+   });
+});
 
 

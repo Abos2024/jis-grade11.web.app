@@ -40,6 +40,7 @@ build/Release
 
 # Dependency directories
 public\node_modules
+@dogstudio
 jspm_packages/
 
 # Snowpack dependency directory (https://snowpack.dev/)
