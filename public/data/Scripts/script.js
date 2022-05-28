@@ -45,17 +45,13 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active-slide";
 }
 
-// Import Highway
 import Highway from '../../node_modules/@dogstudio/highway';
-// Import GSAP
-import Tween from'../../node_modules/gsap';
-// Fade
-clas(method)Fade.in():void nsition{
-    in(){
+import Fade from'fade.js';
+const H = new Highway.Core({
+    transitions:{
+        default:Fade
    }
-   out(){
-   }
-}
-// Export Fade class
-export default Fade;
+});
+
+
 
