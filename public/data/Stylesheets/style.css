@@ -265,14 +265,13 @@ button{
 	padding: 2vh 1.5vw;
 	font-weight: 800;
 	font-variation-settings:
-  'FILL' 0,
-  'wght' 300,
-  'GRAD' 0,
-  'opsz' 48
+  	'FILL' 0,
+  	'wght' 300,
+  	'GRAD' 0,
+  	'opsz' 48
 }
 .nav-icon{
 	font-size: 2vw !important;
-	font-weight: 200;
 	display: inline;
 	cursor: pointer;
   	transition: all .444s;
@@ -280,6 +279,12 @@ button{
 .nav-icon:hover {
 	animation: spin 4s ease-in-out infinite;
 	cursor: not-allowed;
+	color: transparent;
+	font-variation-settings:
+  	'FILL' 1,
+  	'wght' 300,
+  	'GRAD' 200,
+  	'opsz' 48
 }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 .topnav .active {
