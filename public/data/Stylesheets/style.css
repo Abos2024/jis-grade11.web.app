@@ -222,11 +222,6 @@ button{
 	transform: translate(-50%,-50%);
 }
 
-#navbar{
-  transition: all 1s ease-in;
-  transition-delay: 0.5s;
-}
-
 .topnav {
 	position: fixed;
 	background-color: #222;
@@ -234,12 +229,10 @@ button{
 	font-family: 'titillium web', sans-serif;
 	width: 100%;
 	z-index: 100;
-	transition: top 0.5s;
-	transition-delay: 5ms;
 	height: auto;
 }
 
-.topnav > a:not(.nav-log) {
+.topnav > a:not(.nav-log), .topnav > span.dropdown{
 	text-align: center;
 	padding: 2vh 1.5vw;
 	float: left;
@@ -248,24 +241,24 @@ button{
 	box-sizing: border-box;
 }
 .nav-logo{
-	padding: auto;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	float: left;
 }
 
 .topnav .active {
 	background-color: #499ae8;
 	color: #ffffff;
-	transition: all 0.5s ease-in;
 	box-sizing: border-box;
 }
 
 .topnav .active:hover {
 	color: #ffffff;
-	background-color: #000000;
+	background-color: #499be890;
 	border-color: #499ae8;
 	border-width: 0.3vw; 
 	border-style: solid;
-	padding: calc(2vh - 0.4vw) 1.1vw;
-	transition: all 0.5s ease-in;
+	padding: calc(2vh - 0.3vw) 1.2vw;
 	box-sizing: border-box;
 }
 
@@ -305,8 +298,6 @@ button{
 	border-right-width: 0px;
 	border-top-width: 0px;
 	padding-bottom: calc(2vh - 0.4vw);
-	transition: all 0.5s ease-in-out;
-	transition-delay: 5ms;
 	box-sizing: border-box;
 }
 
