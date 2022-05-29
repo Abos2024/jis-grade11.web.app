@@ -231,9 +231,9 @@ button{
 
 .scrolled-active{
 	background-color: #499ae8;
-	border: 0px;
-	padding: calc(2vh) 1.5vw;
+	padding: 2vh 1.5vw;
 	box-sizing: border-box;
+	border: none;
 }
 .topnav {
 	position: fixed;
@@ -245,7 +245,7 @@ button{
 	height: auto;
 }
 
-.topnav > a:not(.nav-log), .topnav > span.dropdown{
+.topnav > a:not(.nav-log, .active), .topnav > span.dropdown{
 	text-align: center;
 	padding: 2vh 1.5vw;
 	float: left;
@@ -262,16 +262,18 @@ button{
 .topnav .active {
 	border-bottom: #499ae8 solid 0.3vw;
 	color: #ffffff;
-	padding: calc(2vh - 0.3vw) 1.5vw;
+	padding: calc(2vh - 0.15vw) 1.5vw;
+	text-align: center;
+	float: left;
+	color: #f2f2f2;
+	font-size: 1.4vw;
+	box-sizing: border-box;
 }
 
 .topnav .active:hover {
 	color: #ffffff;
 	background-color: #499be83e;
-	border-color: #499ae8;
-	border-width: 0.3vw; 
 	border-style: solid;
-	padding: calc(2vh - 0.3vw) 1.2vw;
 }
 
 .active:hover .dropbtn{
