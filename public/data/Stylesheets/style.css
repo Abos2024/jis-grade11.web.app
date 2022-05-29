@@ -236,7 +236,7 @@ button{
 }
 .topnav {
 	position: fixed;
-	background-color: transparent;
+	background-color: #00000024;
 	overflow: hidden;
 	font-family: 'titillium web', sans-serif;
 	width: 100%;
@@ -274,12 +274,11 @@ button{
 	font-size: 2vw !important;
 	display: inline;
 	cursor: pointer;
-  	transition: all .444s;
+  	transition: all .5s;
 }
 .nav-icon:hover {
+	color: #ffffff;
 	animation: spin 4s ease-in-out infinite;
-	cursor: not-allowed;
-	color: transparent;
 	font-variation-settings:
   	'FILL' 1,
   	'wght' 300,
