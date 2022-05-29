@@ -6,7 +6,7 @@ scrollNavbar = () => {
     const links = document.querySelectorAll("#navbar .active");
 
   if (document.documentElement.scrollTop > 100) {
-    navBar.classList.add("pa-fixed-header");
+    navBar.classList.add("fixed-header");
 
     // Change the color of links on scroll
     for (let i = 0; i < links.length; i++) {
@@ -15,7 +15,7 @@ scrollNavbar = () => {
     }
 
   } else {
-    navBar.classList.remove("pa-fixed-header");
+    navBar.classList.remove("fixed-header");
     
     // Change the color of links back to default
     for (let i = 0; i < links.length; i++) {
