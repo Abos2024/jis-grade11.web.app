@@ -221,10 +221,23 @@ button{
 	-ms-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);
 }
+.pa-fixed-header {
+	background-color: #222 !important;
+	-webkit-transition: background-color 1s ease-out;
+	-moz-transition: background-color 1s ease-out;
+	-o-transition: background-color 1s ease-out;
+	transition: background-color 1s ease-out;
+}
 
+.scrolled-active{
+	background-color: #499ae8;
+	border: 0px;
+	padding: calc(2vh) 1.5vw;
+	box-sizing: border-box;
+}
 .topnav {
 	position: fixed;
-	background-color: #222;
+	background-color: transparent;
 	overflow: hidden;
 	font-family: 'titillium web', sans-serif;
 	width: 100%;
@@ -247,9 +260,9 @@ button{
 }
 
 .topnav .active {
-	background-color: #499ae8;
+	border-bottom: #499ae8 solid 0.3vw;
 	color: #ffffff;
-	box-sizing: border-box;
+	padding: calc(2vh - 0.3vw) 1.5vw;
 }
 
 .topnav .active:hover {
@@ -259,7 +272,6 @@ button{
 	border-width: 0.3vw; 
 	border-style: solid;
 	padding: calc(2vh - 0.3vw) 1.2vw;
-	box-sizing: border-box;
 }
 
 .active:hover .dropbtn{
