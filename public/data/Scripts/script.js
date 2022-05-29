@@ -45,24 +45,6 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active-slide";
 }
 
-import Highway from '../../node_modules/@dogstudio/highway';
-import Fade from'fade.js';
-const H = new Highway.Core({
-    transitions:{
-        default:Fade
-   }
-});
 
-const links=document.querySelectorAll('topnav a');
-// Listen to the`NAVIGATE_IN` event
-H.on('NAVIGATE_IN',({to, location})=>{
-                   link=>{links.forEach(
-        // Remove the active class
-        link.classList.remove('active');
-        // Add the active class
-        if(link.href === location.href){
-            link.classList.add('active');
-   });
-});
 
 

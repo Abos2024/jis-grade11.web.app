@@ -82,7 +82,7 @@ button{
 	display: grid;
 	grid-template-columns: 25% 25% 25% 25%;
 	grid-gap: 20% 5%;
-	margin: 0px 50px;
+	margin: 0 3vw;
 }
 @media (max-width: 900px) {
 	.home-4 { 
@@ -115,7 +115,7 @@ button{
 	width: 95vw;
 	display: grid;
 	grid-template-rows: 50% 50%;
-	margin: 0px 50px;
+	margin: 0px 3vw;
 	font-size: 50px;
 }
 
@@ -132,7 +132,7 @@ button{
 
 .linker-link{
 	text-align: right;
-	margin-right: 50px;
+	margin-right: 3vw;
 }
 
 .nav-logo{
@@ -482,15 +482,15 @@ button{
 .home-text2{
 	font-family: Koulen, sans-serif;
 	font-size: 5vw;
-	margin: 0px 0px 50px 50px;
-	padding-top: 50px;
+	margin: 0px 3vw;
+	padding-top: 3vw;
 }
 
 .home-smalltext2{
 	font-family: 'titillium web', sans-serif;
 	font-size: 3vw;
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-left: 3vw;
+	margin-right: 3vw;
 }
 
 u{
@@ -625,21 +625,21 @@ a:hover{
 .home-text3{
 	font-family: 'koulen', sans-serif;
 	font-size: 5vw;
-	margin-left: 50px;
-	padding-top: 20px;
+	margin-left: 3vw;
+	padding-top: 2vh;
 }
 .home-text4{
 	font-family: 'Koulen', sans-serif;
 	font-size: 50px;
-	padding-top: 20px;
+	padding-top: 2vh;
 	margin-bottom: -60px;
 }
 .home-text5{
 	position: relative;
 	font-family: 'koulen', sans-serif;
 	font-size: 4vw;
-	margin: 0px 0px 10px 50px;
-	padding-top: 20px;
+	margin: 0px 0px 11vh 3vw;
+	padding-top: 2vh;
 }
 
 .home-text5:after {
@@ -670,10 +670,10 @@ a:hover{
 	border-bottom-left-radius: 25px;
 	outline-color: #499ae8;;
 	outline-width: 30px;
-	margin-top: 100px;
-	margin-bottom: 100px;
-	margin-right: 60px;
-	margin-left: 60px;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+	margin-right: 3vw;
+	margin-left: 3vw;
 	font-size: 5vw;
 	text-align: left;
 	display: grid;
@@ -715,7 +715,7 @@ a:hover{
 }
 .art-text{
 	font-size: 2vw;
-	margin-right: 50px;
+	margin-right: 3vw;
 }
 .contact{
 	display: grid;
@@ -913,7 +913,7 @@ details{
 	padding-left: 5%;
 	-webkit-user-select: none;
 	user-select: none;
-  margin-top: -2.3vh;
+	margin-top: -2.3vh;
 }
 .credits{
 	font-family: 'titillium web', sans-serif;
@@ -960,7 +960,7 @@ details{
 
 .atext{
 	margin-bottom: 15vh;
-	margin-left: 50px;
+	margin-left: 3vw;
 	display: grid;
 	font-size: 2vw;
 }
@@ -1101,7 +1101,11 @@ strong:hover{
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
 }
-
+.settings{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin: 0 3vw;
+}
 .slideshow-container {
 	max-width: 1000px;
 	position: relative;
@@ -1252,28 +1256,6 @@ strong:hover{
 		-webkit-column-count: 1;
 		column-count:         1;
 	}
-	.home-picture{
-		width: 90%;
-	}
-	.home-picture-2{
-		width: 90%;
-	}
-	.home-text{
-		font-size: 70px;
-	}
-	.home-smalltext{
-		font-size: 35px;
-	}
-	.home-text2{
-		font-size: 40px;
-		margin: 0px 0px 0px 15px;
-		padding-top: 10px;
-		padding-bottom: 10px;
-	}
-	.home-smalltext2{
-		font-size: 25px;
-		margin: 0px 0px 20px 20px;
-	}
 	.pg-button{
 		margin-top: 30px;
 		font-size: 27px;
@@ -1284,24 +1266,6 @@ strong:hover{
 	.home-picture{
 		height: 100px;
 	}
-	.home-text{
-		font-size: 4em;
-	}
-	.home-smalltext{
-		font-size: 20px;
-	}
-	.home-text2{
-		font-size: 20px;
-	}
-	.home-smalltext2{
-		font-size: 17px;
-	}
-	.home-4{
-		margin: auto;
-	}
-	.pg-button{
-		font-size: 20px;
-	}
 	.home-button{
 		padding: 10px 20px;
 		font-size: 15px;
@@ -1311,9 +1275,6 @@ strong:hover{
 	.home-2, .home-3, .home-4{
 		height: auto;
 		padding-bottom: 50px;
-	}
-	.home-picture{
-		height: 300px;
 	}
 }
 @media (min-width: 900px){
