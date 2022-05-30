@@ -31,11 +31,25 @@ body::-webkit-scrollbar-thumb:hover {
 	border-radius: 50px;
 }
 
-.bg-relax{
+.blue-square, .blue-square2, .blue-square3{
 	position: absolute;
-	height: 100%;
+	height: 5vw;
+	width: 5vw;
+	border-radius: 1vw;	
 }
-
+.blue-square{
+	border: #499ae8 solid 2px;
+	margin-left: 10vw;
+}
+.blue-square2{
+	border: #499ae8 solid 0px;
+	background-color: #499ae8;
+	margin-left: 90vw;
+}
+.blue-square3{
+	border: #499ae8 solid 2px;
+	margin-left: 40vw;
+}
 button{
 	cursor: pointer;
 }
@@ -49,6 +63,7 @@ button{
 	background: linear-gradient(120deg, rgba(0,0,0,1) 20%, rgba(2,0,36,1) 35%, rgb(0, 0, 104) 40%, rgb(0, 7, 82) 60%, rgba(3,1,43,1) 75%, rgba(0,0,0,1) 80%);
 	background-size: 500%;
 	animation: animate 25s linear infinite;
+	z-index: 10;
 }
 .home-0, .home-1{
 	border-bottom-right-radius: 30px;
