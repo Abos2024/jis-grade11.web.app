@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Titillium+Web&display=swap');
 :root {
 	--main-color: #499ae8;
+	--text-color: #ffffff;
+	--text-inverse: #000000;
 }
 html {
 	scroll-behavior: smooth;
@@ -17,7 +19,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-	background-color: black;
+	background-color: var(--text-inverse);
 }
 
 body::-webkit-scrollbar-thumb {
@@ -70,7 +72,7 @@ button{
 	border-bottom-left-radius: 30px;
 }
 .home-0, .home-1, .home-2, .home-3, .home-6{
-	color: white;
+	color: var(--text-color);
 	width: 99vw;
 	height:100vh;
 }
@@ -79,7 +81,7 @@ button{
 }
 .home-0, .home-1{
 	padding-top: 50px;
-	background-color: black;
+	background-color: var(--text-inverse);
 	align-items: center;
 	align-content: center;
 	text-align: center;
@@ -123,7 +125,7 @@ button{
 
 .home-5{
 	width: 99vw;
-	color: white;
+	color: var(--text-color);
 	padding-bottom: 50px;
 }
 
@@ -233,7 +235,7 @@ button{
 	top: 50%;
 	left: 50%;
 	font-size: 50px;
-	color: white;
+	color: var(--text-color);
 	-ms-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);
 }
@@ -252,7 +254,7 @@ button{
 }
 .topnav {
 	position: fixed;
-	background-color: #00000024;
+	background-color: var(--text-inverse)24;
 	overflow: hidden;
 	font-family: 'titillium web', sans-serif;
 	width: 100%;
@@ -275,7 +277,7 @@ button{
 	height: 4.5vh;
 }
 .navbar-icons{
-	color: #ffffff;
+	color: var(--text-color);
 	display: grid;
 	float: right;
 	padding: 2vh 1.5vw;
@@ -293,7 +295,7 @@ button{
   	transition: all .5s;
 }
 .nav-icon:hover {
-	color: #ffffff;
+	color: var(--text-color);
 	animation: spin 4s ease-in-out infinite;
 	font-variation-settings:
   	'FILL' 1,
@@ -304,7 +306,7 @@ button{
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 .topnav .active {
 	border-bottom: var(--main-color) solid 0.3vw;
-	color: #ffffff;
+	color: var(--text-color);
 	padding: calc(2vh - 0.15vw) 1.5vw;
 	text-align: center;
 	float: left;
@@ -314,12 +316,12 @@ button{
 }
 
 .topnav .active:hover {
-	color: #ffffff;
+	color: var(--text-color);
 	background-color: #499be83e;
 }
 
 .active:hover .dropbtn{
-	color: #ffffff;
+	color: var(--text-color);
 }
 
 .dropdown {
@@ -335,7 +337,7 @@ button{
 	font-size: 1.4vw;  
 	border: none;
 	outline: none;
-	color: #ffffff;
+	color: var(--text-color);
 	background-color: inherit;
 	font-family: inherit;
 	margin: 0;
@@ -346,7 +348,7 @@ button{
 
 .topnav > a:hover, .dropdown:hover{
 	background-color: rgb(101, 99, 99);
-	color: #ffffff;
+	color: var(--text-color);
 	border-bottom-width: 0.4vw;
 	border-color: var(--main-color);
 	border-style: solid;
@@ -358,7 +360,7 @@ button{
 }
 
 .dropdown:hover .dropbtn{
-	color: #ffffff;
+	color: var(--text-color);
 }
 
 .dropdown-content {
@@ -422,7 +424,7 @@ button{
 	align-items: center;
 	font-family: 'titillium web', sans-serif;
 	background-color: transparent;
-	color: white;
+	color: var(--text-color);
 	text-align: center;
 	text-decoration: none;
 	font-size: 20px;
@@ -433,8 +435,8 @@ button{
 
 }
 .home-button:active{
-	border-color: white;
-	color: black;
+	border-color: var(--text-color);
+	color: var(--text-inverse);
 	background-color: var(--main-color);
 	font-family: 'titillium web', sans-serif;
 	font-weight: bolder;
@@ -444,14 +446,14 @@ button{
 	align-items: center;
 	font-family: 'titillium web', sans-serif;
 	background-color: transparent;
-	color: white;
+	color: var(--text-color);
 	text-align: center;
 	padding: 21px 23px;
 	text-decoration: none;
 	font-size: 20px;
 }
 .home-button a:hover{
-	color: black;
+	color: var(--text-inverse);
 	font-family: 'titillium web', sans-serif;
 	font-weight: bolder;
 }
@@ -463,7 +465,7 @@ button{
 	align-items: center;
 	font-family: 'titillium web', sans-serif;
 	background-color: transparent;
-	color: white;
+	color: var(--text-color);
 	text-align: center;
 	text-decoration: none;
 	font-size: 20px;
@@ -472,8 +474,8 @@ button{
 	background-color: #499be888;
 }
 .home-button-2:active{
-	border-color: white;
-	color: black;
+	border-color: var(--text-color);
+	color: var(--text-inverse);
 	background-color: var(--main-color);
 	font-family: 'titillium web', sans-serif;
 	font-weight: bolder;
@@ -483,14 +485,14 @@ button{
 	align-items: center;
 	font-family: 'titillium web', sans-serif;
 	background-color: transparent;
-	color: white;
+	color: var(--text-color);
 	text-align: center;
 	padding: 21px 23px;
 	text-decoration: none;
 	font-size: 20px;
 }
 .home-button-2 a:hover{
-	color: black;
+	color: var(--text-inverse);
 	font-family: 'titillium web', sans-serif;
 	font-weight: bolder;
 }
@@ -572,14 +574,14 @@ u{
 
 .projects-card .contain {
 	font-family: 'Titillium Web', sans-serif;
-	color: whitesmoke;
+	color: var(--text-color);
 	text-align: center;
 	font-size: 3vw;
 }
 
 .pg-button{
 	font-family: 'titillium web', sans-serif;
-	color: white;
+	color: var(--text-color);
 	border-style: solid; 
 	border-color: var(--main-color);
 	border-width: 0.6vw;
@@ -605,21 +607,21 @@ u{
 }
 .pg-button:hover > a{
 	text-shadow:
-	-0.5px -0.5px 0 #ffffff,
-	0.5px -0.5px 0 #ffffff,
-	-0.5px 0.5px 0 #ffffff,
-	0.5px 0.5px 0 #ffffff;
+	-0.5px -0.5px 0 var(--text-color),
+	0.5px -0.5px 0 var(--text-color),
+	-0.5px 0.5px 0 var(--text-color),
+	0.5px 0.5px 0 var(--text-color);
 	-webkit-transition: all .5s ease-in-out;
 	-moz-transition: all .5s ease-in-out;
 	-o-transition: all .5s ease-in-out;
 	transition: all .5s ease-in-out;
-	color: #fff;
+	color: var(--text-color);
 }
 .home-smalltext3{
 	font-family: 'titillium web', sans-serif;
 	font-weight: bolder;
 	font-size: 8vw;
-	color: white;
+	color: var(--text-color);
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -631,7 +633,7 @@ u{
 }
 a{
 	text-decoration: none;
-	color: #ffffff;
+	color: var(--text-color);
 	transition: all 0.5s ease-in-out;
 }
 a:hover{
@@ -678,7 +680,7 @@ a:hover{
 
 .article-1{
 	font-family: 'titillium web', sans-serif;
-	color: white;
+	color: var(--text-color);
 	border-style: solid; 
 	border-color: var(--main-color);
 	border-width: 0.5vw;
@@ -795,7 +797,7 @@ a:hover{
 	display: inline-block;
 	padding: 25px 30px;
 	margin: 10px 0px;
-	color: #fff;
+	color: var(--text-color);
 	text-decoration: none;
 	transition: 0.5s;
 	letter-spacing: 4px;
@@ -805,11 +807,11 @@ a:hover{
 }
 .home-butt:hover{
 	background: var(--main-color);
-	color: #000000;
+	color: var(--text-inverse);
 	box-shadow: 0 0 5px var(--main-color),
 	0 0 25px var(--main-color),
 	0 0 50px var(--main-color),
-	0 0 200px #fff;
+	0 0 200px var(--text-color);
 	transition: all 1s;
 	-webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
 }
@@ -987,7 +989,7 @@ strong{
 	font-family: 'koulen', sans-serif;
 	font-size: 2.5rem;
 	text-decoration: none;
-	color: #ffffff;
+	color: var(--text-color);
 	transition: all 0.5s ease-in-out;
 }
 
@@ -1044,7 +1046,7 @@ strong:hover{
 	background: #202020;
 	margin: 4vh 3vw;
 	font-size: 50px;
-	box-shadow: #0000008a 20px 20px 20px;
+	box-shadow: var(--text-inverse)8a 20px 20px 20px;
 	transition: all 0.5s ease-in-out;
 	transform: scale(0.98);
   	border: var(--main-color) 0.2vw solid;
@@ -1100,7 +1102,7 @@ strong:hover{
 	font-family: 'koulen', sans-serif;
 	font-size: 1rem;
 	text-decoration: none;
-	color: #ffffff;
+	color: var(--text-color);
 	transition: all 0.5s ease-in-out;
 }
 
@@ -1138,12 +1140,12 @@ strong:hover{
 	font-size: 1.3vw;
 }
 .settings-wip{
-	color: #ffffff;
+	color: var(--text-color);
 	display: block;
 	position: fixed;
 	width: 100%;
 	height: 100%;
-	background-color: #000000;
+	background-color: var(--text-inverse);
 	z-index: 99999999;
 }
 #toggle-theme{
@@ -1189,7 +1191,7 @@ strong:hover{
 	width: auto;
 	margin-top: -22px;
 	padding: 16px;
-	color: white;
+	color: var(--text-color);
 	font-weight: bold;
 	font-size: 1.7vw;
 	transition: 0.6s ease;
@@ -1225,7 +1227,7 @@ strong:hover{
 }
 
 .numbertext {
-	color: #ffffff;
+	color: var(--text-color);
 	font-size: 1.5vw;
 	padding: 8px 12px;
 	position: absolute;

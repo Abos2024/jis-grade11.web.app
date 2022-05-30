@@ -32,8 +32,14 @@ changeclrbtn.onclick = function() {maincolorset()};
 function maincolorset() {
   var maincolore = document.getElementById('main-colorbox').value;
   document.documentElement.style.setProperty('--main-color', maincolore );
+  var currentTheme = localStorage.getItem("color-theme");
+if (currentTheme != maincolore) {
+  document.documentElement.style.setProperty('--main-color', maincolore );
+} else if (currentTheme == maincolore) {
+  document.documentElement.style.setProperty('--main-color', '#499ae8' );
 }
-
+  localStorage.setItem("color-theme", maincolore);
+}
 function openNav() {
   document.getElementById("myNav").style.width = "100%";
 }
