@@ -5,7 +5,7 @@ scrollNavbar = () => {
     const navBar = document.getElementById("navbar");
     const links = document.querySelectorAll("#navbar .active");
 
-  if (document.documentElement.scrollTop > 100) {
+  if (document.documentElement.scrollTop > 50) {
     navBar.classList.add("fixed-header");
 
     // Change the color of links on scroll
