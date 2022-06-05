@@ -294,6 +294,11 @@ button{
 	padding-right: 2vw;
 	float: left;
 	height: 4.5vh;
+	filter: grayscale(60%);
+	transition: all 0.5s ease-in-out;
+}
+.nav-logo:hover{
+	filter: none;
 }
 .navbar-icons{
 	color: var(--text-color);
