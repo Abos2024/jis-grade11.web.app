@@ -778,19 +778,15 @@ a:hover{
 	height: 3vw;
 	filter: invert();
 }
-#imageGallery {
+.imageGallery {
 	line-height:0;
-	-webkit-column-count:5;
-	-webkit-column-gap:5px;
-	-moz-column-count:5;
-	-moz-column-gap:5px;
 	column-count:5;
 	column-gap:5px;
 	padding-left: 50px;
 	padding-right: 50px;
 	z-index: -10;
 }
-#imageGallery img {
+.imageGallery img {
 	width: 100% !important;
 	height: auto !important;
 	margin-bottom: 5px; /* to match column gap */
@@ -801,7 +797,7 @@ a:hover{
 	transition: all 0.5s ease-in-out;
 	display: block;
 }
-#imageGallery video {
+.imageGallery video {
 	width: 100% !important;
 	height: auto !important;
 	margin-bottom: 5px; /* to match column gap */
@@ -811,10 +807,10 @@ a:hover{
 	padding-right: 10px;
 	display: block;
 }
-#imageGallery img:hover {
+.imageGallery img:hover {
 	filter:none;
 }
-#imageGallery video:hover {
+.imageGallery video:hover {
 	filter:none;
 }
 .home-butt{
@@ -1310,21 +1306,21 @@ strong:hover{
 }
 
 @media (max-width: 1200px) {
-	#imageGallery {
+	.imageGallery {
 		-moz-column-count:    4;
 		-webkit-column-count: 4;
 		column-count:         4;
 	}
 }
 @media (max-width: 1000px) {
-	#imageGallery {
+	.imageGallery {
 		-moz-column-count:    3;
 		-webkit-column-count: 3;
 		column-count:         3;
 	}
 }
 @media (max-width: 800px) {
-	#imageGallery {
+	.imageGallery {
 		-moz-column-count:    2;
 		-webkit-column-count: 2;
 		column-count:         2;
@@ -1346,7 +1342,7 @@ strong:hover{
 }
 
 @media (max-width: 481px) {
-	#imageGallery {
+	.imageGallery {
 		-moz-column-count:    1;
 		-webkit-column-count: 1;
 		column-count:         1;
