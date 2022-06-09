@@ -796,7 +796,6 @@ a:hover{
 	padding-right: 10px;
 	transition: all 0.5s ease-in-out;
 	display: block;
-	z-index: -10000;
 }
 .imageGallery video {
 	width: 100% !important;
@@ -807,12 +806,9 @@ a:hover{
 	padding-left: 10px;
 	padding-right: 10px;
 	display: block;
-	z-index: -10000;
 }
 .imageGallery img:hover {
 	filter:none;
-	transform: scale(1.5);
-	z-index: 10000;
 }
 .imageGallery video:hover {
 	filter:none;

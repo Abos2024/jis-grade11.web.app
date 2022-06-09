@@ -42,6 +42,7 @@ build/Release
 public\node_modules
 @dogstudio
 jspm_packages/
+public
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
