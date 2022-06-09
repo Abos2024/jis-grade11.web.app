@@ -42,7 +42,7 @@ build/Release
 public\node_modules
 @dogstudio
 jspm_packages/
-public
+public\data\jquery.magnify\dist
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
@@ -91,7 +91,7 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+
 
 # Gatsby files
 .cache/
