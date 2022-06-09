@@ -796,6 +796,7 @@ a:hover{
 	padding-right: 10px;
 	transition: all 0.5s ease-in-out;
 	display: block;
+	z-index: -10000;
 }
 .imageGallery video {
 	width: 100% !important;
@@ -806,9 +807,12 @@ a:hover{
 	padding-left: 10px;
 	padding-right: 10px;
 	display: block;
+	z-index: -10000;
 }
 .imageGallery img:hover {
 	filter:none;
+	transform: scale(1.5);
+	z-index: 10000;
 }
 .imageGallery video:hover {
 	filter:none;
@@ -1341,7 +1345,14 @@ strong:hover{
 	}
 }
 
-@media (max-width: 481px) {
+@media (max-width: 400px) {
+	.home-picture{
+		height: 100px;
+	}
+	.home-button{
+		padding: 10px 20px;
+		font-size: 15px;
+	}
 	.imageGallery {
 		-moz-column-count:    1;
 		-webkit-column-count: 1;
@@ -1351,15 +1362,6 @@ strong:hover{
 		margin-top: 30px;
 		font-size: 27px;
 		padding: 5px;
-	}
-}
-@media (max-width: 400px) {
-	.home-picture{
-		height: 100px;
-	}
-	.home-button{
-		padding: 10px 20px;
-		font-size: 15px;
 	}
 }
 @media (max-width: 970px) {
