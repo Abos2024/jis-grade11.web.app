@@ -42,18 +42,18 @@ body::-webkit-scrollbar-thumb:hover {
 	z-index: 1;
 }
 .blue-square{
-	border: #499ae8 solid 2px;
+	border: var(--main-color) solid 2px;
 	margin-left: 10vw;
 	z-index: -1;
 }
 .blue-square2{
-	border: #499ae8 solid 1px;
+	border: var(--main-color) solid 1px;
 	background: repeating-linear-gradient(
   	0deg,
 	  transparent,
 	  transparent 1.25vh,
-	  #499ae8 1.25vh,
-	  #499ae8 2.5vh
+	  var(--main-color) 1.25vh,
+	  var(--main-color) 2.5vh
   );
 	margin-left: 90vw;
 }
@@ -62,7 +62,7 @@ body::-webkit-scrollbar-thumb:hover {
 	margin-left: 40vw;
 }
 .blue-square4{
-	border: #499ae8 solid 3px;
+	border: var(--main-color) solid 3px;
 	margin-left: 15vw;
 	height: 8vw;
 	width: 8vw;
